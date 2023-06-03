@@ -1,0 +1,85 @@
+.everything {
+    background-color: rgb(31, 31, 31);
+    color: rgb(150, 140, 0);
+}
+header {
+    position: relative;
+}
+.header-content {
+    text-align: center;
+}
+
+header h1 {
+	font-size: 32px;
+}
+
+.navbar {
+	position: relative;
+}
+
+.navbarright {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+}
+
+.fade {
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.visible {
+	opacity: 1;
+	transition: opacity 0.5s ease-in-out;
+  }
+
+ul.vert-one{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	display:block;
+	font:bold 16px Helvetica, Verdana, Arial, sans-serif;
+	line-height:165%;
+	width:200px;
+	}
+
+ul.vert-one li{
+	margin:0;
+	padding:0;
+	border-top:1px solid #4D0000;
+	border-bottom:1px solid #761A1A;
+	}
+
+ul.vert-one li a{
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	background:#600;
+	padding:0 0 0 20px;
+	width:180px;
+	}
+
+ul.vert-one li a:hover{
+	background:#900 url("vert-one_arrow.gif") no-repeat 0 9px;
+	}
+
+ul.vert-one li a.current,ul.vert-one li a.current:hover{
+	background:#933 url("vert-one_arrow.gif") no-repeat 0 9px;
+	}
+
+h1 {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:16px;
+font-weight:bold;
+margin:0;
+padding:0;
+}
+
+hr {
+border:none;
+border-top:1px solid #CCCCCC;
+height:1px;
+margin-bottom:25px;
+}
+
