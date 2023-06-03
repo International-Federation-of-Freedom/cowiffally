@@ -37,10 +37,10 @@ header h1 {
 .shownav {
 	margin:0;
 	padding:0;
-	color:#fff;
-	background:#600;
-	border-top:1px solid #4D0000;
-	border-bottom:1px solid #761A1A;
+	color:#000;
+	background:#00ac09;
+	border-top:1px solid #00ac09;
+	border-bottom:1px solid #003603;
 	display:block;
 	font:bold 16px Helvetica, Verdana, Arial, sans-serif;
 	line-height:165%;
@@ -60,25 +60,25 @@ ul.vert-one{
 ul.vert-one li{
 	margin:0;
 	padding:0;
-	border-top:1px solid #4D0000;
-	border-bottom:1px solid #761A1A;
+	border-top:1px solid #00ac09;
+	border-bottom:1px solid #003603;
 	}
 
 ul.vert-one li a{
 	display:block;
 	text-decoration:none;
-	color:#fff;
-	background:#600;
+	color:#000;
+	background:#00ac09;
 	padding:0 0 0 20px;
 	width:180px;
 	}
 
 ul.vert-one li a:hover{
-	background:#900 url("/assets/img/vert-one_arrow.gif") no-repeat 0 9px;
+	background:rgb(150, 140, 0) url("/assets/img/vert-one_arrow.gif") no-repeat 0 9px;
 	}
 
 ul.vert-one li a.current,ul.vert-one li a.current:hover{
-	background:#933 url("/assets/img/vert-one_arrow.gif") no-repeat 0 9px;
+	background:rgb(179, 167, 0) url("/assets/img/vert-one_arrow.gif") no-repeat 0 9px;
 	}
 
 h1 {
