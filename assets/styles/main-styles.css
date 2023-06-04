@@ -1,12 +1,13 @@
 .everything {
-    background-color: rgb(31, 31, 31);
-    color: rgb(150, 140, 0);
+    background-image: linear-gradient(to right, #1f6200, #596700);
 }
 header {
     position: relative;
 }
+
 .header-content {
     text-align: center;
+	background-image: linear-gradient(to right, #1f6200, #596700);
 }
 
 header h1 {
